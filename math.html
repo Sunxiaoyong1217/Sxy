@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="pp">
+	<input type="button" id="btn" value="检查" placeholder="请输入1-11">
+	<script>
+		var a=document.getElementById("pp");
+		var oBtn=document.getElementById("btn");
+		oBtn.onclick=function(){
+			var s=a.value;
+			if(s>=60 && s<=100){
+				alert("你真棒");
+			}else{
+				alert("你真操蛋");
+			}
+		}
+	</script>
+</body>
+</html>
